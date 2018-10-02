@@ -1,34 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<html>
-    <head>
-        <title>Portal EDGE</title>
-    </head>
-    <body>
-        
-        <div>
-            <h1><a href="/">DeviceWise Integration</a></h1>
+{% extends 'blog/base.html' %}
+{% block content %}
+{% for post in posts %}
+    <div class="post">
+        <div class="date">
+            <p>published: {{ post.published_date }}</p>
         </div>
-
-        <div>
-            <p>Integração entre o chão fabril e a internet!</p>
-            <h2><a href="">Contador #1</a></h2>
-            <p>Input here, my firts tag...</p>
-        </div>
-
-        <div>
-            <h2><a href="">Contador #2</a></h2>
-            <p>Input here, my second tag...</p>
-
-         <div>
-            <h2><a href="">Temperatura #1</a></h2>
-            <p>Input here, my third tag...</p>
-
-         <div>
-            <h2><a href="">Temperatura #2</a></h2>
-            <p>Input here, my fourth tag...</p>
-
-        </div>
-    </body>
-</html>
+            <h1><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h1>
+            <p>{{ post.text|linebreaksbr }}</p>
+    </div>
+{% endfor %}
+{% endblock %}
