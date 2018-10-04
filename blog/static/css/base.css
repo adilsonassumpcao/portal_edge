@@ -1,0 +1,90 @@
+@import "icones/icones.css";
+
+/* GENERAL */
+* {
+    font-family: 'DINPro', arial, Helvetica, sans-serif;
+}
+
+html, body{
+    background-image: url('img/iot.jpg');
+    height: 100%;
+    width: 100%;
+    background-position: center;
+}
+
+a{
+    color: #6f8295;
+    font-size: 10pt;
+}
+.dropdown-menu{
+    border-radius: 0;
+    border: none;
+    margin: 0;
+}
+.no-border{
+    border: none;
+}
+.rounded{
+    border-radius: 1.25em !important;
+}
+/* BACKGROUNDS */
+.bg-white{
+    background-color: #fff;
+}
+.bg-blue{
+    background-color: #0a3b75;
+}
+.bg-yellow{
+    background-color: #fde000;
+}
+
+/* COLOR */
+.co-white{
+    color: #fff;
+}
+.co-blue{
+    color: #0a3b75;
+}
+.co-yellow{
+    color: #fde000;
+}
+
+section > div.container > div.bg-white{
+    min-height: 350px;
+}
+
+/* HEADER */
+header > .bg-blue::before{
+    border-top: solid 4px #fde000;
+    display: block;
+    content: " ";
+}
+.operational-menu .navbar-nav .nav-item .nav-link{
+    color: #fff;
+    line-height: 1.6;
+    padding-right: .9rem;
+    padding-left: .9rem;
+}
+.operational-menu .navbar-nav .nav-item .nav-link:hover{
+    background-color: #fde000;
+}
+.operational-menu .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item {
+    color: #fff;
+    background-color: #fde000;
+}
+.operational-menu .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item:hover{
+    color: #0a3b75;
+    background-color: #fff;
+}
+
+/* FOOTER */
+footer{
+    border-top: solid 4px #fde000;
+    display: block;
+    content: " ";
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+

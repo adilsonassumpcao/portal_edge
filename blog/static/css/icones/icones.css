@@ -1,0 +1,107 @@
+.icone {display: inline-block; float: left; background-position: center center; background-repeat: no-repeat; }
+.icone.margin {margin-right: 5px; }
+
+/************************** 30x20 *********************************/
+.ico-usuario, .ico-x{width: 30px; height: 20px; background-image: url(img/ico-usuario-topo.png);}
+.ico-x {background-image: url(img/ico-x.png); margin: 0;}
+
+/************************** 17x25 *********************************/
+.ico-sino{width: 17px; height: 25px; background-image: url(img/ico-sino.png);}
+
+/************************** 17x25 *********************************/
+.ico-editar{width: 20px; height: 20px; background-image: url(img/ico-editar.png);}
+
+/*25x25*/
+.ico-add, .ico-atividade{width: 25px; height: 25px; background-image: url(img/ico-add.png);}
+.ico-atividade{background-image: url(img/ico-atividade.png);}
+
+/*22x20*/
+.ico-alerta{width: 22px; height: 20px; background-image: url(img/ico-alerta.png);}
+
+/*16x16*/
+.ico-estrela, .ico-estrela-vazada{width: 16px; height: 16px; background-image: url(img/ico-estrela.png); }
+.ico-estrela-vazada { background-image: url(img/ico-estrela-vazada.png);  }
+
+/*14x8*/
+.ico-seta-acima, .ico-seta-abaixo{width: 14px; height: 8px; background-image: url(img/ico-seta-acima.png); }
+.ico-estrela-vazada { background-image: url(img/ico-seta-abaixo.png);  }
+
+/*27x8*/
+.ico-3-pontos {width: 27px; height: 8px; background-image: url(img/ico-3-pontos.png); }
+
+
+/*41x35*/
+.ico-bota {width: 41px; height: 35px; background-image: url(img/ico-bota.png); }
+
+/*37x37*/
+.ico-calendar, .ico-descricao, .ico-check-on, .ico-check-off, .ico-indicadores{width: 37px; height: 37px; background-image: url(img/ico-calendar.png); }
+.ico-descricao { background-image: url(img/ico-descricao.png);  }
+.ico-check-on { background-image: url(img/ico-check-on.png);  }
+.ico-check-off { background-image: url(img/ico-check-off.png);  }
+.ico-indicadores { background-image: url(img/ico-indicadores.png);  }
+
+/*33x39*/
+.ico-favorito{width: 33px; height: 39px; background-image: url(img/ico-favorito.png); }
+
+/*8x5*/
+.ico-seta-abaixo-cinza {width: 8px; height: 5px; background-image: url(img/ico-seta-abaixo-cinza.png); }
+
+/*14x14*/
+.ico-seta-direita {width: 14px; height: 14px; background-image: url(img/ico-seta-direita.png); }
+.ico-seta-esquerda {width: 14px; height: 14px; background-image: url(img/ico-seta-esquerda.png); }
+
+/*38x28*/
+.ico-time {width: 38px; height: 28px; background-image: url(img/ico-time.png); }
+
+
+/*33x33*/
+.ico-calendar-empty{width: 33px; height: 33px; background-image: url(img/ico-calendar-empty.png); }
+
+
+/*32x32*/
+.ico-aprovar, .ico-revisar, .ico-reprovar, .ico-assinar-aprovar{width: 37px; height: 37px; background-image: url(img/ico-aprovar.png); }
+.ico-revisar { background-image: url(img/ico-revisar.png);  }
+.ico-reprovar { background-image: url(img/ico-reprovar.png);  }
+.ico-assinar-aprovar { background-image: url(img/ico-assinar-aprovar.png);  }
+
+
+/*30x30*/
+.ico-lixeira{width: 30px; height: 30px; background-image: url(img/ico-lixeira.png); }
+
+/*38x28*/
+.ico-engrenagem {width: 31px; height: 32px; background-image: url(img/ico-engrenagem.png); }
+
+/*38x28*/
+.ico-atividades {width: 28px; height: 28px; background-image: url(img/ico-atividades.png); }
+
+/*38x28*/
+.ico-lupa {width: 21px; height: 21px; background-image: url(img/ico-lupa.png); }
+
+/*38x26*/
+.ico-cashflow {width: 31px; height: 26px; background-image: url(img/ico-cashflow.png); }
+
+/*25x21*/
+.ico-cashflow-g {width: 25px; height: 21px; background-image: url(img/ico-cashflow-g.png); }
+
+
+/*24x24*/
+.ico-a, .ico-cron, .ico-gear, .ico-p, .ico-pdf, .ico-reopen, .ico-stop, .ico-workflow{ width: 24px; height: 24px; background-image: url(img/ico-a.png); }
+
+.ico-cron     {background-image: url(img/ico-a.png); }
+.ico-gear     {background-image: url(img/ico-gear.png); }
+.ico-p        {background-image: url(img/ico-p.png); }
+.ico-pdf      {background-image: url(img/ico-pdf.png); }
+.ico-reopen   {background-image: url(img/ico-reopen.png); }
+.ico-stop     {background-image: url(img/ico-stop.png); }
+.ico-workflow {background-image: url(img/ico-workflow.png); }
+
+/*32 32 */
+.ico-loop{ width: 32px; height: 32px; background-image: url(img/ico-loop.png); }
+.ico-checklist{ width: 32px; height: 32px; background-image: url(img/ico-checklist.png); }
+.ico-form{ width: 32px; height: 32px; background-image: url(img/ico-form.png); }
+.ico-tree{ width: 32px; height: 32px; background-image: url(img/ico-tree.png); }
+.ico-root{ width: 32px; height: 32px; background-image: url(img/ico-root.png); }
+
+.ico-alert{ width: 50px; height: 50px; background-image: url(img/ico-alert.png); }
+
+

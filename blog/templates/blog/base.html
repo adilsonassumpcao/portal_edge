@@ -1,24 +1,37 @@
 {% load static %}
-<html>
+<!DOCTYPE html>
+<html lang="pt-BR">
     <head>
-        <title>Portal EDGE</title>
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-        <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+        <title>{% block html-title %}{% endblock %} - Portal EDGE</title>
+        <meta charset="utf-8" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="Content-Language" content="pt-br" />
+        <meta name="author" content="OS3 Soluções Em Tecnologia da Informação">
+        <meta name="keywords" content="GoodLab" />
+        <meta name="description" content="GoodLab" />
+        {% block meta %}{% endblock %}
+
+        <link rel="stylesheet" type="text/css" href="{% static 'bootstrap4/css/bootstrap.min.css' %}" media="screen"/>
+        <link rel="stylesheet" type="text/css" href="{% static 'fontawesome5/css/all.min.css' %}" media="screen"/>
+        <link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}" media="screen"/>
+        {% block style %}
+        {% endblock %}
+
+        <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+
+        {% block extra-head %}{% endblock %}
     </head>
     <body>
-        <body>
-    <div class="page-header">
-        <h1><a href="/">Portal EDGE x DeviceWISE</a></h1>
-    </div>
-    <div class="content container">
-        <div class="row">
-            <div class="col-md-8">
-            {% block content %}
-            {% endblock %}
-            </div>
-        </div>
-    </div>
-</body>
+         {% include "include/header.html" %}
+         <section {% block bg-content %}class="bg-image"{% endblock %}>
+             <div class="container py-5">
+                 {% block content %}{% endblock %}
+             </div>
+          </section>
+          {% include "include/footer.html" %}
+          <script src="{% static 'bootstrap4/js/bootstrap.min.js' %}"></script>
+          {% block scripts %}
+          {% endblock %}
+    </body>
 </html>
